@@ -75,3 +75,19 @@
 * Overall, the updated models performed poorly in terms of identifying customers that will default on their payments.
 * The models that performed the best were the Random Forest and Gradient Boost, with .76 AUC.
 * Future work would be to see how the models perform when all data is made categorical. This would mean grouping payment, bill, and credit limit amounts into categories.
+
+### Sources:
+
+**[1] Raw data:** https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
+**[2] Literature:** [Yeh, I. C., & Lien, C. H. (2009). The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients. Expert Systems with Applications, 36(2), 2473-2480.](https://bradzzz.gitbooks.io/ga-seattle-dsi/content/dsi/dsi_05_classification_databases/2.1-lesson/assets/datasets/DefaultCreditCardClients_yeh_2009.pdf)
+
+**[3] Credit Limits:** https://www.nerdwallet.com/article/finance/30-percent-ideal-credit-utilization-ratio-rule
+
+**[4] Exceeding Credit Limits:** https://www.cnbc.com/select/exceeding-credit-limit/
+
+**[5] Credit Risk:** https://www.investopedia.com/terms/c/creditrisk.asp
+
+**[6] Confusion Matrix Code:** http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+
+**[7] Kaggle Variable Discussion:** https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset/discussion/34608
