@@ -76,6 +76,14 @@
 * The models that performed the best were the Random Forest and Gradient Boost, with .76 AUC.
 * Future work would be to see how the models perform when all data is made categorical. This would mean grouping payment, bill, and credit limit amounts into categories.
 
+## Version 2.0 Update (7-6-21):
+
+**Updated notebook for my supervised learning capstone. Updates include:**
+* oversampling data with SMOTE to account for class imbalance of target variable.
+* using RandomizedSearchCV paired with GridSearchCV to narrow input values and reduce run time.
+* Assessing Precision-recall, focusing on improving recall for people who default
+
+
 ### Sources:
 
 **[1] Raw data:** https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
