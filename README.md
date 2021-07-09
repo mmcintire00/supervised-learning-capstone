@@ -1,6 +1,7 @@
 ## Supervised Machine Learning Capstone
 ### Project: Predicting Credit Card Default
 
+### IN PROGRESS: Implementation of SMOTE
 ### Background: When credit companys issue credit cards to consumers, those companies are taking on risk that the customer may not pay back the loan. This is considered a default on the payment. Frequently, lenders use customer information and history to determine credit risk[5].
 
 ### Project Goal: The goal of this project is to predict if a customer will default on the next months payment (target variable), given demographic and financial history data.
